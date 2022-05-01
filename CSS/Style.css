@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+/*Removes all the default margin and padding*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gabriela', serif;
+  
+}
+body{
+  background-image: url("../images/BgImg.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 100vh;
+  color: white;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 20px;
+}
+.w3-panel{
+  color: red;
+  width: 50%;
+}
+.quote{
+  font-style: italic;
+  color: yellow;
+}
+.character{
+  color: #0088cc;
+  font-size: 25px;
+}
+hr{
+  margin: 10px 0;
+  width: 70%;;
+  border: 1px solid white;
+}
+.btn{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-left: 100px;
+}
+.btn button{
+  cursor: pointer;
+  border: none;
+  color: yellow;
+  font-size: 25px;
+  background-color: #0088cc;
+  padding: 7px;
+  border-radius: 4px;
+}
+button:hover:focus{
+  color: red;
+  outline: none;
+}
+
