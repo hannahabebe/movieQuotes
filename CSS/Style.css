@@ -9,6 +9,7 @@
   
 }
 body{
+  background-image: url("../images/BgImg.jpg");
   background-size: cover;
   display: flex;
   align-items: center;
